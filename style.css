@@ -1,0 +1,39 @@
+body{
+    margin-top: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    display: flex;
+    background:#eeeeee;
+}
+
+#side-bar{
+    background:#fafafa ;
+    
+    height: 100%;
+    width: 350px;
+}
+#container{
+    display: flex;
+}
+
+.fondo-azul{
+    background: #607d8b;
+    height: 200px
+}
+
+#pp{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background: white;
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+}
+
+#pp-image{
+    margin: 10px; 
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}
