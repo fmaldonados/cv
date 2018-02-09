@@ -17,6 +17,12 @@ p{
     font-family: 'Quicksand', sans-serif;
 }
 
+ul{
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+}
+
 .fondo-azul{
     background: #607d8b;
     height: 200px
@@ -25,6 +31,7 @@ p{
 .content{
     background: #fafafa;
 }
+
 
 #side-bar{
     background:#fafafa ;
@@ -103,6 +110,13 @@ p{
     position: relative;
     top:200px;
 }
+#icon-container{
+    position: relative;
+    top: 150px;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 #icons{
     position: relative;
@@ -111,22 +125,23 @@ p{
 }
 
 #git{
-    position: fixed;
-    top:800px;
+    top:160px;
     left: 60px;
     font-size: 45px;
+    margin: 20px;
 }
 #twitter{
-    position: fixed;
-    top:800px;
+    
+    top:80px;
     left: 130px;
     font-size: 45px;
+    margin: 20px;
 }
 #g{
-    position: fixed;
-    top:800px;
+    
     left: 200px;
     font-size: 45px;
+    margin: 20px;
 }
 
 #g > a:link {
